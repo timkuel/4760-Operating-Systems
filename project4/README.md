@@ -3,14 +3,14 @@
 ### Course:	CMPSCI 4760 - Operating Systems ###
 
 
-### ** IMPORTANT - Before execution ** ###
+### **IMPORTANT - Before execution** ###
 		I had an issue where my program would freeze randomly when going to re-queue a process. Due to this
 	I have some output going to the screen, that way if theres a major pause in the program, you can see it and
 	terminate the program.  It is setup to where all data will be removed if program is terminated manually. 
 
 
 
-#### ** Project Execution: ** ####
+#### **Project Execution:** ####
 	
 		To execute the program, type 'Make' or 'make' into the command line while inside
 	the same directory as the .c file. A Makefile will compile the program down into the executable
@@ -18,7 +18,7 @@
 	as the executable, 'oss' will launch 'user' itself.
 
 
-#### ** Project Description: ** ####
+#### **Project Description:** ####
 
 		Program acts like an operating system scheduler.  It starts off by loading some process into a queue,
 	assigning each. process a Process Control Block that is part of a Process Control Table.  After a certain amount of
@@ -30,7 +30,7 @@
 	finish.
 
 
-#### ** Difficulties: ** ####
+#### **Difficulties:** ####
 
 		I had a difficult time allotting myself time to finish this project.  I underestimated how difficult it would
 	be to tune my scheduler, and I'm pretty sure it still is not the best.  I see processes moving into each queue and
