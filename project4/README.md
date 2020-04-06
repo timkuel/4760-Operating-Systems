@@ -3,9 +3,7 @@
 ### Course:	CMPSCI 4760 - Operating Systems ###
 
 
-### ** IMPORTAN T** ###
-
-### ** Before execution ** ###
+### ** IMPORTANT - Before execution ** ###
 		I had an issue where my program would freeze randomly when going to re-queue a process. Due to this
 	I have some output going to the screen, that way if theres a major pause in the program, you can see it and
 	terminate the program.  It is setup to where all data will be removed if program is terminated manually. 
