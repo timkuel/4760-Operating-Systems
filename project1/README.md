@@ -2,7 +2,7 @@
 ### Date:	September 1, 2019 ###
 ### Course:	CMPSCI 4760 - Operating Systems ###
 
-#### ** Project Description: ** ####
+#### **Project Description:** ####
 
 		Our first project will display directories and their contents using a recursive depth-first search.  Depending
 	on options passed in, it will display information on these directories. This project was made using several
