@@ -3,7 +3,7 @@
 ### Course:	CMPSCI 4760 - Operating Systems ###
 
 
-#### ** Project Execution: ** ####
+#### **Project Execution:** ####
 	
 		To execute the program, type 'Make' or 'make' into the command line while inside
 		the same directory as the .c file. A Makefile will compile the program down into the executable
@@ -13,7 +13,7 @@
 
 
 
-#### ** Program Description: ** ####
+#### **Program Description:** ####
 
 		This program acts like the shell of an OS simulator that does very basic tasks using fork, exec,
 	shared memory, and semaphores. 
@@ -44,7 +44,7 @@ message is full, that current 'user' process will go back into the critical regi
 
 
 
-#### ** Virtual Timer: ** ####
+#### **Virtual Timer:** ####
 
 		When creating the the virtual timer, I had slight difficulties on deciding on a number to use as an
 	incrementer. I tried to find one that wouldn't count too fast or too slow, but I never know when the 'oss'
@@ -59,7 +59,7 @@ message is full, that current 'user' process will go back into the critical regi
 
 
 
-#### ** Difficulties: ** ####
+#### **Difficulties:** ####
 
 		The most difficult thing I faced was getting the virtual timer to increment on a good time, which was
 	explained above.  Another difficulty I did face was trying to kill a 'user' process when one of the interrupts occured
@@ -69,4 +69,7 @@ message is full, that current 'user' process will go back into the critical regi
 	in place wasnt too hard, I did initially use a POSIX restricted method, but swapped it so that it now shouldn't be an
 	issue.
 
--Seeding 'user.c's random number generator was kind of difficult, it uses the virtual times nanoseconds and adds the current time of the system.  Some processes will get the same seed since 'user' didnt need access to critical region to generate this number. This allowed some processes to see the same virtual time and start to generate the random number at the same system time as well, allowing the random number to be the same.
+		Seeding 'user.c's random number generator was kind of difficult, it uses the virtual times nanoseconds and
+	adds the current time of the system.  Some processes will get the same seed since 'user' didnt need access to critical
+	region to generate this number. This allowed some processes to see the same virtual time and start to generate the
+	random number at the same system time as well, allowing the random number to be the same.
