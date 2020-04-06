@@ -19,7 +19,7 @@
 	shared memory, and semaphores. 
 
 - **ossim.c**
-	'ossim.c' or 'oss' will start by either being launched with or without command
+	--'ossim.c' or 'oss' will start by either being launched with or without command
 line options (use command line option -h for more info).  After execution, 'oss' will launch 's' child processes,
 if one is not defined it will launch 5.  After the children launch, 'oss' starts to enter a while loop, with each
 iteration 'oss' will increment a virtual clock thats in shared memory. Before 'oss' can increment the virtual
@@ -31,7 +31,7 @@ option, but is 'output.dat' by default. 'oss' will continue to loop for either 2
 been spawned.  
 
 - **user.c**
-	'user.c' or 'user' when launched, will attach to the shared memory created by 'oss'.  'user' will look at the
+	--'user.c' or 'user' when launched, will attach to the shared memory created by 'oss'.  'user' will look at the
 virtual clock nanoseconds and it will generate a random number between 1 and 1000000.  'user' will add that random 
 number to the nanoseconds it saw when it peeked at the shared memory.  'user' will then go into a while loop and try to
 enter into a critical region.  Each iteration of the while loop, 'user' process wil try to gain access to a critical region.
