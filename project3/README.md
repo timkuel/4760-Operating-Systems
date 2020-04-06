@@ -1,24 +1,24 @@
-Author:	Timothy Kuelker
-Date:	October 1, 2019
-Course:	CMPSCI 4760 - Operating Systems
+## Author:	Timothy Kuelker ##
+### Date:	October 1, 2019 ###
+### Course:	CMPSCI 4760 - Operating Systems ###
 
 
-Project Execution:
+#### ** Project Execution: ** ####
 	
-	To execute the program, type 'Make' or 'make' into the command line while inside
-the same directory as the .c file. A Makefile will compile the program down into the executable
-'oss' and 'user'.  To execute 'oss' and 'user' type './oss' into the command line while in the same directory
-as the executable, 'oss' will launch 'user' itself.  For all command line options, type './oss -h' into the 
-command line, while in the same directory as the executable.
+		To execute the program, type 'Make' or 'make' into the command line while inside
+		the same directory as the .c file. A Makefile will compile the program down into the executable
+		'oss' and 'user'.  To execute 'oss' and 'user' type './oss' into the command line while in the same directory
+		as the executable, 'oss' will launch 'user' itself.  For all command line options, type './oss -h' into the 
+		command line, while in the same directory as the executable.
 
 
 
-Program Description:
+#### ** Program Description: ** ####
 
-	This program acts like the shell of an OS simulator that does very basic tasks using fork, exec,
-shared memory, and semaphores. 
+		This program acts like the shell of an OS simulator that does very basic tasks using fork, exec,
+	shared memory, and semaphores. 
 
-- 'ossim.c'
+* ** ossim.c **
 	'ossim.c' or 'oss' will start by either being launched with or without command
 line options (use command line option -h for more info).  After execution, 'oss' will launch 's' child processes,
 if one is not defined it will launch 5.  After the children launch, 'oss' starts to enter a while loop, with each
