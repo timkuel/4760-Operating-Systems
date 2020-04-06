@@ -2,7 +2,7 @@
 ### Date:	September 17, 2019 ###
 ### Course:	CMPSCI 4760 - Operating Systems ###
 
-#### ** Project Execution: ** ####
+#### **Project Execution:** ####
 
 		To execute this program, type 'Make' or 'make' into the command line while inside
 	the same directory as the .c file.  A Makefile will compile the program down into the executable
@@ -11,7 +11,7 @@
 	while in the same directory as the executable.
 
 
-#### ** Project Description: ** ####
+#### **Project Description:** ####
 
 		This program will attempt to find if a subset that sums to a given number exists,
 	and if it does, display that subset.  The program starts by reading from a file, if
@@ -27,7 +27,7 @@
 	or you can specify where it will be written with the -o option.  Pass in the -h option for
 	more help on how to execute the program.
 
-#### ** Difficulties: ** ####
+#### **Difficulties:** ####
 	
 		The biggest problem I came across when creating this program was getting all of
 	the subsets that sum to the deired number to print.  I ended up finding a backtracking
