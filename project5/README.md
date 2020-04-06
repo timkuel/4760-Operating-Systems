@@ -4,13 +4,13 @@
 
 #### **Project Description:** ####
 
-	**Before Executing**
-		Ocassionally, the program will run into situations where the system is always in a deadlock.  Sometimes,
-	this will occur for multiple executions in a row (possible due to random number generator).  So to help with that,
-	I will have some physical printing that may help indicate if the program has run into a constant deadlock.
+**Before Executing**
+	Ocassionally, the program will run into situations where the system is always in a deadlock.  Sometimes,
+this will occur for multiple executions in a row (possible due to random number generator).  So to help with that,
+I will have some physical printing that may help indicate if the program has run into a constant deadlock.
 
  
-** IMPORTANT  **
+**IMPORTANT**
 Running in verbose mode tends to give less deadlocks.
 
 	
