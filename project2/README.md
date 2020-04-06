@@ -41,7 +41,7 @@ print_subset() function.  To fix this, I added an extra condition to the if-stat
 that would print the subsets, and that is "if (... && t_size > 0){..." where t_size is 
 the size of the subset.***
 
-Edited above (in bold).  I initially had a check that solved the empty array problem,
+Edited above (** in bold **).  I initially had a check that solved the empty array problem,
 but in some cases the set would return a subset that added up to be more than the target sum.
 to fix this, which also took care of the empty array case, I add up all values in the subset
 that was passed to the print_subset() function and check it with the target sum.  If it does
