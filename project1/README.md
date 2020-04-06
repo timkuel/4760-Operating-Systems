@@ -5,7 +5,9 @@
 ### ** Project Description: ** ###
 
 		Our first project will display directories and their contents using a recursive depth-first search.  Depending
-	on options passed in, it will display information on these directories. This project was made using several 		smaller programs.  The main program, runner.c, will get compiled down into the executable dt after 'making' the files.  	dt can then take in several command-line arguments, type in [-h] for help. When an option is passed to dt, it will
+	on options passed in, it will display information on these directories. This project was made using several
+	smaller programs.  The main program, runner.c, will get compiled down into the executable dt after 'making' the files.
+	dt can then take in several command-line arguments, type in [-h] for help. When an option is passed to dt, it will
 	then execute that specific option, passing it the path to the current directory unless specified otherwise. dt will
 	launch a new process when executing the desired option.  The idea behind me setting up the project this way was to
 	save run time memory.  This way only desired parts of the program get launched and not the whole thing.  One of the
